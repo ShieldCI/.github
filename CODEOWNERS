@@ -1,0 +1,43 @@
+# ShieldCI Code Owners
+# 
+# These owners will be automatically requested for review when someone opens a pull request.
+# Each line is a file pattern followed by one or more owners.
+
+# Default owners for everything in the repo
+* @shieldci/core-team
+
+# Analyzers Core - Core team members who understand the analyzer engine
+/analyzers-core/ @shieldci/core-team @shieldci/analyzers-team
+
+# Laravel Package - Laravel specialists
+/laravel/ @shieldci/core-team @shieldci/laravel-team
+
+# Security Analyzers - Security specialists should review
+/laravel/src/Analyzers/Security/ @shieldci/security-team
+/docs/docs/analyzers/security/ @shieldci/security-team
+
+# Performance Analyzers - Performance specialists should review
+/laravel/src/Analyzers/Performance/ @shieldci/performance-team
+/docs/docs/analyzers/performance/ @shieldci/performance-team
+
+# Documentation - Technical writers and core team
+/docs/ @shieldci/docs-team @shieldci/core-team
+*.md @shieldci/docs-team
+
+# Configuration files
+/laravel/config/ @shieldci/core-team
+/example-app/config/ @shieldci/core-team
+
+# GitHub Actions workflows
+/.github/workflows/ @shieldci/devops-team @shieldci/core-team
+
+# Composer dependencies
+composer.json @shieldci/core-team
+composer.lock @shieldci/core-team
+
+# Example App
+/example-app/ @shieldci/core-team
+
+# Strategy and planning documents
+/strategy/ @shieldci/leadership-team @shieldci/core-team
+

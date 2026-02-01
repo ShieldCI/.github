@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Documentation
+    url: https://github.com/shieldci/shieldci/tree/master/docs
+    about: Check our documentation for guides and examples
+  - name: 💬 Discussions
+    url: https://github.com/shieldci/shieldci/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 🔒 Security Vulnerability
+    url: https://github.com/shieldci/shieldci/security/advisories/new
+    about: Report a security vulnerability (private)
+

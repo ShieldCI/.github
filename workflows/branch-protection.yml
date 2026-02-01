@@ -1,0 +1,29 @@
+name: Branch Protection
+
+on:
+  pull_request:
+    branches:
+      - master
+      - main
+
+jobs:
+  check-required-status:
+    runs-on: ubuntu-latest
+    name: Check Required Status Checks
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Wait for other checks
+        uses: lewagon/wait-on-check-action@v1.3.1
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          check-regexp: '(Tests|Code Quality|Coverage).*'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 10
+          allowed-conclusions: success,skipped
+
+      - name: All checks passed
+        run: echo "All required checks have passed successfully!"
+
