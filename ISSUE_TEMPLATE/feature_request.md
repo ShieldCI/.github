@@ -77,15 +77,6 @@ assignees: ''
 2. 
 3. 
 
-### Files That May Need Changes
-
-- [ ] `analyzers-core/src/`
-- [ ] `laravel/src/Analyzers/`
-- [ ] `laravel/src/Commands/`
-- [ ] `laravel/config/shieldci.php`
-- [ ] Documentation files
-- [ ] Other: 
-
 ## Impact Assessment
 
 ### Benefits
