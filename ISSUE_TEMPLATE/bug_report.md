@@ -71,9 +71,9 @@ $ php artisan shield:analyze
 
 ## Environment
 
-- **ShieldCI Version**: [e.g., 1.0.0]
-- **Laravel Version**: [e.g., 10.x]
-- **PHP Version**: [e.g., 8.2.0]
+- **ShieldCI Version**: [e.g., 1.18.0]
+- **Laravel Version**: [e.g., 12.x]
+- **PHP Version**: [e.g., 8.3.0]
 - **Operating System**: [e.g., Ubuntu 22.04, macOS 13.0]
 - **Composer Version**: [e.g., 2.5.0]
 

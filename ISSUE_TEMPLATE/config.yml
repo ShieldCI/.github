@@ -1,12 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 📚 Documentation
-    url: https://github.com/shieldci/shieldci/tree/master/docs
-    about: Check our documentation for guides and examples
-  - name: 💬 Discussions
-    url: https://github.com/shieldci/shieldci/discussions
-    about: Ask questions and discuss ideas with the community
   - name: 🔒 Security Vulnerability
-    url: https://github.com/shieldci/shieldci/security/advisories/new
-    about: Report a security vulnerability (private)
-
+    url: https://github.com/ShieldCI/.github/blob/main/SECURITY.md
+    about: Please report security issues privately. Do not open a public issue.
+  - name: 📚 Documentation
+    url: https://docs.shieldci.com
+    about: Guides, configuration, and analyzer reference
+  - name: 💬 Discussions
+    url: https://github.com/ShieldCI/laravel/discussions
+    about: Ask questions and discuss ideas with the community
